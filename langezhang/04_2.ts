@@ -14,7 +14,6 @@ export function bs(nums: number[], target: number): boolean {
   let i: number = 0,
     y: number = nums.length;
   while (i < y) {
-    console.log(i, y);
     let temp = nums[(y + i) >> 1];
     if (temp === target) {
       return true;
